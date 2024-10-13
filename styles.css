@@ -1,0 +1,106 @@
+body {
+  text-align: center;
+  background-image: linear-gradient(rgb(211, 59, 225), grey);
+  height: 100vh;
+}
+
+h1 {
+  font-size: 7rem;
+  color: #ffffff;
+  font-family: "Londrina Sketch", sans-serif;
+  text-shadow: 3px 0 #da0404;
+}
+
+/* footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+} */
+
+.w {
+  background-image: url("crash.png");
+}
+
+.a {
+  background-image: url("kick.png");
+}
+
+.s {
+  background-image: url("snare.png");
+}
+
+.d {
+  background-image: url("tom1.png");
+}
+
+.j {
+  background-image: url("tom2.png");
+}
+
+.k {
+  background-image: url("tom3.png");
+}
+
+.l {
+  background-image: url("tom4.png");
+}
+
+/* .set {
+  margin: 5% auto;
+} */
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #909293;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 5px solid #ffffff;
+  font-size: 4rem;
+  font-family: "Kanit", sans-serif;
+  line-height: 8;
+  
+  color: #ffffff;
+  text-shadow: 2px 0 #000000;
+  border-radius: 100px;
+  display: inline-block;
+  width: 190px;
+  height: 190px;
+  text-align: center;
+  background-color: white;
+}
+
+.click{
+  margin: 10px;
+}
+/* New Font  */
+
+.londrina-sketch-regular {
+  font-family: "Londrina Sketch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.kanit-regular {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.footer-text{
+  font-size: 3rem;
+  margin-top: 5%;
+  font-family: "Kanit", sans-serif;
+  font-style:italic;
+  color: #f4630e;
+  border: 10px;
+}

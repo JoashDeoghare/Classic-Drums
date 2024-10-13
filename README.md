@@ -1,2 +1,2 @@
-# Classic-Drums
-Project for Hackuta6
+# javadk
+java drum kit project
